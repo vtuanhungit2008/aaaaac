@@ -789,45 +789,54 @@ Thương hiệu hàng đầu, dịch vụ khách hàng thân thiện, bảo mậ
   <div class="absolute inset-0 bg-black/60 backdrop-blur-sm" data-close-modal></div>
 
   <!-- Modal content -->
-  <div class="relative z-10 w-[434px] h-[500px] rounded-[20px] bg-white shadow-2xl p-5 flex flex-col gap-8"
->
+  <div class="relative z-10 w-[100%] sm:w-[434px] 
+              h-[420px] sm:h-[500px] 
+              rounded-[20px] bg-white shadow-2xl p-5 flex flex-col">
 
     <!-- Close -->
     <button type="button"
-            class="absolute -right-3 -top-3 h-8 w-8 rounded-full bg-white shadow flex items-center justify-center text-gray-500 hover:text-gray-700"
+            class="absolute -right-3 -top-3 h-8 w-8 rounded-full bg-white shadow 
+                   flex items-center justify-center text-gray-500 hover:text-gray-700"
             aria-label="Đóng" data-close-modal>✕</button>
 
+    <!-- Nội dung -->
     <div class="flex-1 overflow-y-auto">
       <h4 id="promoTitle" class="sr-only">Khuyến mãi nổi bật</h4>
-      <div class="space-y-8"> <!-- gap giữa các card 32px (8 * 4px) -->
+      <div class="space-y-3">
 
         <!-- Card 1 -->
-        <div class=" rounded-xl ">
-          <div class="bg-white rounded-[10px] p-1 flex items-center gap-3">
-            <img src="img/photo_2025-08-25_19-26-04.png" alt="F168" class="w-full h-full object-contain">
-            
+        <div class="rounded-xl pt-4">
+          <div class="bg-white rounded-[10px] ">
+            <img src="img/photo_2025-08-25_19-26-04.png" 
+                 alt="F168" 
+                  class="w-full h-[100px] sm:h-[120px] object-fit rounded-lg">>
           </div>
         </div>
 
         <!-- Card 2 -->
-        <div class="rounded-xl ">
-          <div class="bg-white rounded-[10px] p-1 flex items-center gap-3">
-             <img src="img/Frame 1618873253.png" alt="F168" class="w-full h-full object-contain">
+        <div class="rounded-xl">
+          <div class="bg-white rounded-[10px] ">
+            <img src="img/Frame 1618873253.png" 
+                 alt="SHBET" 
+                  class="w-full h-[80px] sm:h-[120px] object-fit rounded-lg">>
           </div>
         </div>
 
         <!-- Card 3 -->
-        <div class=" rounded-xl ">
-          <div class="bg-white rounded-[10px] p-1 flex items-center gap-3">
-             <img src="img/Frame 12.png" alt="F168" class="w-full h-full object-contain">
+        <div class="rounded-xl">
+          <div class="bg-white rounded-[10px] ">
+            <img src="img/Frame 12.png" 
+                 alt="F168 TV" 
+                  class="w-full h-[80px] sm:h-[120px] object-fit rounded-lg">>
           </div>
         </div>
 
       </div>
     </div>
-
   </div>
 </div>
+
+
 
 <script>
 (() => {
