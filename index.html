@@ -1,0 +1,863 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Landing Page — Tailwind</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet" />
+  <style>
+    html, body { height: 100%; }
+    body { font-family: 'Inter', system-ui, -apple-system, Segoe UI, Roboto, Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji"; }
+  </style>
+
+</head>
+<body class="text-white ">
+  <!-- Popup: Khuyến mãi -->
+
+
+  <!-- HEADER -->
+  <header class="relative w-full pb-10">
+    <!-- Background banner -->
+    <div class="absolute inset-0 -z-10 bg-cover bg-center" style="background-image:url('img/banner-singup 1.png')"></div>
+    <!-- Gradient overlay for readability -->
+    <div class="absolute inset-0 -z-10 bg-gradient-to-r from-black/80 via-black/60 to-transparent"></div>
+
+    <!-- Top brand row -->
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-10 pt-4 sm:pt-6">
+      <div class="flex items-center gap-2">
+        <img src="img/Logo.png" alt="Logo" class="w-4 h-4 sm:w-10 sm:h-10" />
+        <span class="text-white font-extrabold text-lg sm:text-xl">BRAND<span class="text-[#FF1F4C]">TOP1</span></span>
+      </div>
+    </div>
+
+    <!-- Hero content -->
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-10 pb-10 pt-6 sm:pt-10">
+      <div class="max-w-xl">
+        <h1 class="font-extrabold leading-tight text-[40px] sm:text-5xl md:text-6xl">
+          <span class="text-[#FF1F4C]">2</span> ỨNG DỤNG<br />
+          <span class="text-[#FF1F4C]">1</span> TRẢI NGHIỆM<br /> ĐỈNH CAO
+        </h1>
+        <div class="text-justify">
+        <div class="max-w-[400px] sm:max-w-[450px]">
+ <p class="text-[16px] leading-6 font-semibold sm:text-lg sm:leading-7">
+  Cộng đồng đông đảo – Nạp rút nhanh – Hỗ trợ 24/7.
+</p>
+
+<p class="mt-2 text-[16px] leading-6 font-semibold text-[#888888] sm:text-lg sm:leading-7">
+  Cả <span class="text-[#FF1F4C]">SHBET</span> và <span class="text-[#FF8B33]">F168</span> đều là những nền tảng hàng đầu, đã khẳng định uy tín nhiều năm.
+</p>
+
+</div>
+        </div>
+
+        <!-- App buttons -->
+        <ul class="mt-6 flex items-center gap-4 flex-wrap">
+          <li><a href="/a" class="inline-block"><img src="./img/Appstore.png" alt="Appstore" class="h-12 sm:h-14" /></a></li>
+          <li><a href="/a" class="inline-block"><img src="./img/Appstore1.png" alt="Appstore" class="h-12 sm:h-14" /></a></li>
+          <li><a href="/a" class="inline-block"><img src="./img/Appstore2.png" alt="Appstore" class="h-12 sm:h-14" /></a></li>
+        </ul>
+
+        <!-- Indicator bars -->
+        <div class="mt-6 flex items-center gap-2">
+          <span class="block h-[6px] w-10 rounded-full bg-white"></span>
+          <span class="block h-[6px] w-6 rounded-full" style="background:linear-gradient(92.67deg,#FF1F4C 0%,#FF5E35 102.17%)"></span>
+          <span class="block h-[6px] w-6 rounded-full" style="background:linear-gradient(92.67deg,#FF1F4C 0%,#FF5E35 102.17%)"></span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- CONTENT 1 -->
+  <section class="relative w-full">
+    <div class="absolute inset-0 -z-10 bg-cover bg-top" style="background-image:url('img/info1.png')"></div>
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-10 py-12 sm:py-16">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+        <!-- Left heading -->
+        <div class="lg:col-span-4 text-gray-900">
+          <div class="leading-tight">
+            <span class="block text-[28px] sm:text-[32px] font-extrabold">Vì sao chọn</span>
+            <div class="flex flex-wrap items-baseline gap-2 mt-1">
+              <span class="text-[28px] sm:text-[32px] font-extrabold text-[#FF1F4C]">SHBET</span>
+              <span class="text-[28px] sm:text-[32px] font-extrabold">&</span>
+              <span class="text-[28px] sm:text-[32px] font-extrabold text-[#FF8B33]">F168?</span>
+            </div>
+          </div>
+          <p class="mt-4 text-sm  font-medium text-[#888888] text-[16px] text-justify">
+            Cả hai ứng dụng đều mang đến cho bạn trải nghiệm trọn vẹn – tiện lợi, hấp dẫn và uy tín hàng đầu.
+          </p>
+        </div>
+
+        <!-- Right boxes -->
+        <div class="lg:col-span-8 grid grid-cols-1 md:grid-cols-2 gap-6">
+          <!-- Card builder (same structure for all 4) -->
+          <!-- Card 1 -->
+          <div class="relative rounded-2xl p-6 text-white min-h-[170px]"
+               style="background:linear-gradient(92.49deg,#FF1F4C 0%,#FF5E35 100%)">
+            <div class="relative z-10 max-w-[60%]">
+              <div class="text-lg font-extrabold leading-6">
+                ĐA DẠNG<br /><span class="block">TRÒ CHƠI</span>
+              </div>
+             <p class="mt-2 text-xs sm:text-sm font-semibold leading-snug inline-block max-w-[150px] sm:max-w-[180px] break-words">
+  Casino, Nổ hũ, Bắn cá, Thể thao, Xổ số, Block chain, game điện tử – tất cả trong 1 app.
+</p>
+
+            </div>
+            <img src="img/info1.1.png"
+                 class="absolute top-1/2 right-[-20px] -translate-y-1/2 w-[210px] h-[188px] md:w-[210px] md:h-[188px] object-contain select-none pointer-events-none drop-shadow-2xl"
+                 alt="" />
+          </div>
+
+          <!-- Card 2 -->
+          <div class="relative rounded-2xl p-6 text-white min-h-[170px]"
+               style="background:linear-gradient(279.75deg,#FFD222 0%,#D26C00 100%)">
+            <div class="relative z-10 max-w-[60%]">
+              <div class="text-lg font-extrabold leading-6">
+               KHUYẾN MÃI<br /><span class="block">CỰC KHỦNG</span>
+              </div>
+              <p class="mt-2 text-xs sm:text-sm font-semibold leading-snug inline-block max-w-[150px] sm:max-w-[160px] break-words">
+               Đăng ký nhận quà ngay, thưởng nạp đầu hấp dẫn, code quay hũ mỗi ngày.
+              </p>
+            </div>
+            <img src="img/Photo (5).png"
+                 class="absolute top-1/2 right-[-20px] -translate-y-1/2 w-[210px] h-[188px] md:w-[210px] md:h-[188px] object-contain select-none pointer-events-none drop-shadow-2xl"
+                 alt="" />
+          </div>
+
+          <!-- Card 3 -->
+          <div class="relative rounded-2xl p-6 text-white min-h-[170px]"
+               style="background:linear-gradient(279.75deg,#07C7D4 0%,#224DA4 100%)">
+            <div class="relative z-10 max-w-[60%]">
+              <div class="text-lg font-extrabold leading-6">
+                GIAO DỊCH<br /><span class="block">NHANH CHÓNG</span>
+              </div>
+              <p class="mt-2 text-xs sm:text-sm font-semibold leading-snug inline-block max-w-[150px] sm:max-w-[160px] break-words">
+               Nạp rút siêu tốc, hỗ trợ nhiều phương thức thanh toán bảo mật, an toàn.
+              </p>
+            </div>
+            <img src="img/Photo (6).png"
+ class="absolute top-1/2 right-[-20px] -translate-y-1/2 w-[210px] h-[188px] md:w-[210px] md:h-[188px] object-contain select-none pointer-events-none drop-shadow-2xl"                 alt="" />
+          </div>
+
+          <!-- Card 4 -->
+          <div class="relative rounded-2xl p-6 text-white min-h-[170px]"
+               style="background:linear-gradient(279.75deg,#5CC32A 0%, #2E6755 100%)">
+            <div class="relative z-10 max-w-[60%]">
+              <div class="text-lg font-extrabold leading-6">
+                ĐA DẠNG<br /><span class="block">TRÒ CHƠI</span>
+              </div>
+              <p class="mt-2 text-xs sm:text-sm font-semibold leading-snug inline-block max-w-[150px] sm:max-w-[160px] break-words">
+Thương hiệu hàng đầu, dịch vụ khách hàng thân thiện, bảo mật tuyệt đối.              </p>
+            </div>
+            <img src="img/Photo (7).png"
+                 class="absolute top-1/2 right-[-20px] -translate-y-1/2 w-[210px] h-[188px] md:w-[210px] md:h-[188px] object-contain select-none pointer-events-none drop-shadow-2xl"
+                 alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <!-- SECTION: Game Hub + Sảnh + Khuyến mãi (bg = image) -->
+<section class="relative w-full pb-20">
+  <!-- BG image -->
+  <div class="absolute inset-0 -z-10 bg-no-repeat bg-cover bg-center"
+       style="background-image:url('img/BG.png')"></div>
+  <!-- (tuỳ chọn) overlay mờ để text dễ đọc -->
+  <div class="absolute inset-0 -z-10 bg-white/0"></div>
+
+  <div class="mx-auto max-w-[1463px] px-4 sm:px-6 lg:px-10 py-12 sm:py-16">
+    <!-- 1) Kho Game khổng lồ -->
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 mt-2">
+      <!-- Left text -->
+<div class="lg:col-span-5 flex flex-col justify-center ">
+  <!-- Hình minh họa trên tiêu đề -->
+  <img src="img/Hinh-anh-nho.png" 
+       alt="Kho Game" 
+       class="w-[347px] h-[204px] object-contain mb-4">
+
+  <h2 class="text-gray-900 text-3xl sm:text-4xl font-extrabold leading-tight">
+    Kho Game khổng lồ<br/>Thỏa mãn mọi nhu cầu giải trí
+  </h2>
+  <p class="mt-4 text-gray-600">
+    Từ những game bài quen thuộc, sảnh thể thao sôi động cho đến các slot mô phỏng rút thăm trúng thưởng – 
+    <span class="font-semibold text-[#FF1F4C]">SHBET</span> và 
+    <span class="font-semibold text-[#FF8B33]">F168</span> 
+    đều đảm bảo mang đến trải nghiệm mượt mà, tỷ lệ thưởng hấp dẫn và cơ hội chiến thắng công bằng, minh bạch.
+  </p>
+  <div class="mt-6 flex gap-3">
+  <!-- Nút trái -->
+<!-- Nút trái -->
+<button 
+  class="w-10 h-10 rounded-xl bg-white text-[#FF4A3D] shadow flex items-center justify-center
+         hover:bg-[#FF4A3D] hover:text-white active:bg-[#FF4A3D] active:text-white transition">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25" class="w-5 h-5 fill-current">
+    <path d="M24 12.001H2.914l5.294-5.295-.707-.707L1 12.501l6.5 6.5.707-.707-5.293-5.293H24v-1z"/>
+  </svg>
+</button>
+
+<!-- Nút phải -->
+<button 
+  class="w-10 h-10 rounded-xl bg-white text-[#FF4A3D] shadow flex items-center justify-center
+         hover:bg-[#FF4A3D] hover:text-white active:bg-[#FF4A3D] active:text-white transition">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25" class="w-5 h-5 fill-current transform rotate-180">
+    <path d="M24 12.001H2.914l5.294-5.295-.707-.707L1 12.501l6.5 6.5.707-.707-5.293-5.293H24v-1z"/>
+  </svg>
+</button>
+
+
+  </div>
+</div>
+
+
+      <!-- Right icon grid -->
+<div class="lg:col-span-7">
+  <div class="grid grid-cols-3 md:grid-cols-5 gap-4">
+    <!-- ROW 1 -->
+    <!-- Banner trái (2 cột, cao bằng 1 ô vuông) -->
+    <div class="col-span-2 relative rounded-2xl shadow overflow-hidden aspect-[2/1]">
+      <img src="img/lucky-wheel-banner.png" alt="Lucky Wheel"
+           class="absolute inset-0 w-full h-full object-cover">
+      <!-- Text overlay -->
+      <div class="absolute bottom-4 left-6 flex flex-col items-start">
+        <span class="text-[20px] font-semibold text-[#FF4A3D] mb-1">Casino</span>
+        <div class="font-[Quicksand] font-bold text-[32px] leading-[30px] tracking-normal text-white">
+          <div>LUCKY</div>
+          <div>WHEEL</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Icon 1–3 -->
+    <div class="rounded-2xl shadow overflow-hidden aspect-square">
+      <img src="img/3.png"  class="w-full h-full object-cover" alt="">
+    </div>
+    <div class="rounded-2xl shadow overflow-hidden aspect-square">
+      <img src="img/4.png"  class="w-full h-full object-cover" alt="">
+    </div>
+    <div class="rounded-2xl shadow overflow-hidden aspect-square">
+      <img src="img/5.png"  class="w-full h-full object-cover" alt="">
+    </div>
+
+    <!-- ROW 2 -->
+    <div class="rounded-2xl shadow overflow-hidden aspect-square">
+      <img src="img/10.png" class="w-full h-full object-cover" alt="">
+    </div>
+    <div class="rounded-2xl shadow overflow-hidden aspect-square">
+      <img src="img/9.png"  class="w-full h-full object-cover" alt="">
+    </div>
+    <div class="rounded-2xl shadow overflow-hidden aspect-square">
+      <img src="img/7.png"  class="w-full h-full object-cover" alt="">
+    </div>
+    <div class="rounded-2xl shadow overflow-hidden aspect-square">
+      <img src="img/8.png"  class="w-full h-full object-cover" alt="">
+    </div>
+    <div class="rounded-2xl shadow overflow-hidden aspect-square">
+      <img src="img/6.png"  class="w-full h-full object-cover" alt="">
+    </div>
+
+    <!-- ROW 3 -->
+    <div class="rounded-2xl shadow overflow-hidden aspect-square">
+      <img src="img/11.png" class="w-full h-full object-cover" alt="">
+    </div>
+    <div class="rounded-2xl shadow overflow-hidden aspect-square">
+      <img src="img/13.png" class="w-full h-full object-cover" alt="">
+    </div>
+    <div class="rounded-2xl shadow overflow-hidden aspect-square">
+      <img src="img/12.png" class="w-full h-full object-cover" alt="">
+    </div>
+
+    <!-- Banner phải (2 cột, cao bằng 1 ô vuông) -->
+    <div class="col-span-2 relative rounded-2xl shadow overflow-hidden aspect-[2/1]">
+      <img src="img/14.png" alt="Vegas Slots"
+           class="absolute inset-0 w-full h-full object-cover">
+    </div>
+  </div>
+</div>
+</div>
+
+    </div>
+
+    <!-- 2) Top Sảnh Game -->
+<div class="mt-6">
+  <h3 class="text-center text-2xl sm:text-3xl font-extrabold text-gray-900 mb-6">
+    Top Sảnh Game dễ bào Khuyến Mãi
+  </h3>
+
+  <!-- Wrapper -->
+  <div class="space-y-4 px-4 md:px-[80px] lg:px-[140px] xl:px-[200px]">
+    
+    <!-- item -->
+    <div class="bg-white rounded-2xl shadow p-4 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
+      <div class="flex items-center gap-3">
+        <img src="img/Image.png" class="w-12 h-12 rounded-lg" alt="">
+        <div>
+          <h4 class="font-bold text-gray-900 text-sm sm:text-base">AE SEXY</h4>
+          <p class="text-xs sm:text-sm text-black">SẢNH LIVE CASINO SỐ 1</p>
+        </div>
+      </div>
+      <div class="flex items-center gap-3">
+        <a href="#" class="text-xs sm:text-sm text-black hover:text-gray-700">Xem khuyến mãi</a>
+        <a href="#"
+           class="px-3 sm:px-4 py-1.5 sm:py-2 rounded-lg text-white text-xs sm:text-sm font-semibold js-open-promo"
+           style="background:linear-gradient(92.67deg,#FF1F4C 0%,#FF5E35 102.17%)">REVIEW</a>
+      </div>
+    </div>
+
+    <!-- item -->
+    <div class="bg-white rounded-2xl shadow p-4 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
+      <div class="flex items-center gap-3">
+        <img src="img/Image (1).png" class="w-12 h-12 rounded-lg" alt="">
+        <div>
+          <h4 class="font-bold text-gray-900 text-sm sm:text-base">JILI Điện tử</h4>
+          <p class="text-xs sm:text-sm text-black">Cổng Game Nổ Hũ dễ nổ, Nhiều Khuyến Mãi</p>
+        </div>
+      </div>
+      <div class="flex items-center gap-3">
+        <a href="#" class="text-xs sm:text-sm text-black hover:text-gray-700">Xem khuyến mãi</a>
+        <a href="#"
+           class="px-3 sm:px-4 py-1.5 sm:py-2 rounded-lg text-white text-xs sm:text-sm font-semibold js-open-promo"
+           style="background:linear-gradient(92.67deg,#FF1F4C 0%,#FF5E35 102.17%)">REVIEW</a>
+      </div>
+    </div>
+
+    <!-- item -->
+    <div class="bg-white rounded-2xl shadow p-4 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
+      <div class="flex items-center gap-3">
+        <img src="img/Image (2).png" class="w-12 h-12 rounded-lg" alt="">
+        <div>
+          <h4 class="font-bold text-gray-900 text-sm sm:text-base">JDP Bắn Cá</h4>
+          <p class="text-xs sm:text-sm text-black">Cổng Game Nổ Hũ dễ nổ, Nhiều Khuyến Mãi</p>
+        </div>
+      </div>
+      <div class="flex items-center gap-3">
+        <a href="#" class="text-xs sm:text-sm text-black hover:text-gray-700">Xem khuyến mãi</a>
+        <a href="#"
+           class="px-3 sm:px-4 py-1.5 sm:py-2 rounded-lg text-white text-xs sm:text-sm font-semibold js-open-promo"
+           style="background:linear-gradient(92.67deg,#FF1F4C 0%,#FF5E35 102.17%)">REVIEW</a>
+      </div>
+    </div>
+
+    <!-- item -->
+    <div class="bg-white rounded-2xl shadow p-4 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
+      <div class="flex items-center gap-3">
+        <img src="img/Image (3).png" class="w-12 h-12 rounded-lg" alt="">
+        <div>
+          <h4 class="font-bold text-gray-900 text-sm sm:text-base">SABA Thể Thao</h4>
+          <p class="text-xs sm:text-sm text-black">Sảnh Banh Bóng dễ chơi, Nhiều Kèo</p>
+        </div>
+      </div>
+      <div class="flex items-center gap-3">
+        <a href="#" class="text-xs sm:text-sm text-black hover:text-gray-700">Xem khuyến mãi</a>
+        <a href="#"
+           class="px-3 sm:px-4 py-1.5 sm:py-2 rounded-lg text-white text-xs sm:text-sm font-semibold js-open-promo"
+           style="background:linear-gradient(92.67deg,#FF1F4C 0%,#FF5E35 102.17%)">REVIEW</a>
+      </div>
+    </div>
+
+    <!-- item -->
+    <div class="bg-white rounded-2xl shadow p-4 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
+      <div class="flex items-center gap-3">
+        <img src="img/Image (4).png" class="w-12 h-12 rounded-lg" alt="">
+        <div>
+          <h4 class="font-bold text-gray-900 text-sm sm:text-base">V8 Game Bài</h4>
+          <p class="text-xs sm:text-sm text-black">Giải trí đổi thưởng số 1</p>
+        </div>
+      </div>
+      <div class="flex items-center gap-3">
+        <a href="#" class="text-xs sm:text-sm text-black hover:text-gray-700">Xem khuyến mãi</a>
+        <a href="#"
+           class="px-3 sm:px-4 py-1.5 sm:py-2 rounded-lg text-white text-xs sm:text-sm font-semibold js-open-promo"
+           style="background:linear-gradient(92.67deg,#FF1F4C 0%,#FF5E35 102.17%)">REVIEW</a>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+    <!-- 3) Khuyến mãi đang Hot -->
+    <div class="mt-16">
+  <h3 class="text-center text-2xl sm:text-3xl font-extrabold text-gray-900 mb-6">
+    Khuyến mãi đang Hot
+  </h3>
+
+  <!-- padding 2 bên -->
+  <div class="px-4 sm:px-6 lg:px-12 xl:px-20">
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <!-- Promo card -->
+      <div class="bg-white rounded-2xl shadow overflow-hidden">
+        <div class="relative w-full h-40 sm:h-44 rounded-2xl overflow-hidden">
+  <!-- Ảnh -->
+  <img src="img/Rectangle 19114.png" 
+       class="w-full h-full object-cover" alt="">
+
+  <!-- Badge HOT -->
+  <span class="absolute top-1 left-3 flex items-center gap-1 text-white text-xs font-semibold 
+               px-2.5 py-1 rounded-full shadow-md"
+        style="background:linear-gradient(92.67deg,#FF1F4C 0%,#FF5E35 102.17%)">
+    <img src="img/Hot Girl.svg" alt="Hot" class="w-3.5 h-3.5 object-contain">
+    Hot
+  </span>
+</div>
+
+        
+
+
+
+        <div class="p-4">
+          <p class="text-sm text-gray-800">Đăng ký tài khoản – Tặng 25 USDT Miễn phí</p>
+          <div class="mt-3 flex items-center justify-between">
+            <span class="text-xs text-gray-400">SHBET</span>
+            <div class="flex gap-1">
+              <span class="w-1.5 h-1.5 rounded-full bg-gray-300"></span>
+              <span class="w-1.5 h-1.5 rounded-full bg-gray-300"></span>
+              <span class="w-1.5 h-1.5 rounded-full bg-[#FF5E35]"></span>
+              <span class="w-1.5 h-1.5 rounded-full bg-gray-300"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- các card còn lại giữ nguyên -->
+      <div class="bg-white rounded-2xl shadow overflow-hidden">
+        <div class="relative">
+          <img src="img/Rectangle 19114 (1).png" class="w-full h-40 sm:h-44 object-cover" alt="">
+<span class="absolute top-1 left-3 flex items-center gap-1 text-white text-xs font-semibold 
+               px-2.5 py-1 rounded-full shadow-md"
+        style="background:linear-gradient(92.67deg,#FF1F4C 0%,#FF5E35 102.17%)">
+    <img src="img/Hot Girl.svg" alt="Hot" class="w-3.5 h-3.5 object-contain">
+    Hot
+  </span>       </div>
+        <div class="p-4">
+          <p class="text-sm text-gray-800">Đăng ký tài khoản - Tặng 25 USDT Miễn phí</p>
+          <div class="mt-3 flex items-center justify-between">
+            <span class="text-xs text-gray-400">SHBET</span>
+            <div class="flex gap-1">
+              <span class="w-1.5 h-1.5 rounded-full bg-[#FF5E35]"></span>
+              <span class="w-1.5 h-1.5 rounded-full bg-gray-300"></span>
+              <span class="w-1.5 h-1.5 rounded-full bg-gray-300"></span>
+              <span class="w-1.5 h-1.5 rounded-full bg-gray-300"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-white rounded-2xl shadow overflow-hidden">
+        <div class="relative">
+          <img src="img/Rectangle 19114 (2).png" class="w-full h-40 sm:h-44 object-cover js-open-promo" alt="">
+<span class="absolute top-1 left-3 flex items-center gap-1 text-white text-xs font-semibold 
+               px-2.5 py-1 rounded-full shadow-md"
+        style="background:linear-gradient(92.67deg,#FF1F4C 0%,#FF5E35 102.17%)">
+    <img src="img/Hot Girl.svg" alt="Hot" class="w-3.5 h-3.5 object-contain">
+    Hot
+  </span>        </div>
+        <div class="p-4">
+          <p class="js-open-promo text-gray-800">Tặng 100% nạp đầu – Nổ hũ · Bắn cá</p>
+          <div class="mt-3 flex items-center justify-between">
+            <span class="text-xs text-gray-400">SHBET</span>
+            <div class="flex gap-1">
+              <span class="w-1.5 h-1.5 rounded-full bg-[#FF5E35]"></span>
+              <span class="w-1.5 h-1.5 rounded-full bg-gray-300"></span>
+              <span class="w-1.5 h-1.5 rounded-full bg-gray-300"></span>
+              <span class="w-1.5 h-1.5 rounded-full bg-gray-300"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-white rounded-2xl shadow overflow-hidden">
+        <div class="relative">
+          <img src="img/Rectangle 19114 (3).png" class="w-full h-40 sm:h-44 object-cover" alt="">
+<span class="absolute top-1 left-3 flex items-center gap-1 text-white text-xs font-semibold 
+               px-2.5 py-1 rounded-full shadow-md"
+        style="background:linear-gradient(92.67deg,#FF1F4C 0%,#FF5E35 102.17%)">
+    <img src="img/Hot Girl.svg" alt="Hot" class="w-3.5 h-3.5 object-contain">
+    Hot
+  </span>       </div>
+        <div class="p-4">
+          <p class="text-sm text-gray-800">Đăng ký tài khoản - Tặng 25 USDT Miễn phí</p>
+          <div class="mt-3 flex items-center justify-between">
+            <span class="text-xs text-gray-400">F168</span>
+            <div class="flex gap-1">
+              <span class="w-1.5 h-1.5 rounded-full bg-[#FF5E35]"></span>
+              <span class="w-1.5 h-1.5 rounded-full bg-gray-300"></span>
+              <span class="w-1.5 h-1.5 rounded-full bg-gray-300"></span>
+              <span class="w-1.5 h-1.5 rounded-full bg-gray-300"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-white rounded-2xl shadow overflow-hidden">
+        <div class="relative">
+          <img src="img/Rectangle 19114 (4).png" class="w-full h-40 sm:h-44 object-cover" alt="">
+<span class="absolute top-1 left-3 flex items-center gap-1 text-white text-xs font-semibold 
+               px-2.5 py-1 rounded-full shadow-md"
+        style="background:linear-gradient(92.67deg,#FF1F4C 0%,#FF5E35 102.17%)">
+    <img src="img/Hot Girl.svg" alt="Hot" class="w-3.5 h-3.5 object-contain">
+    Hot
+  </span>      </div>
+        <div class="p-4">
+          <p class="text-sm text-gray-800">Đăng ký tài khoản - Tặng 25 USDT Miễn phí</p>
+          <div class="mt-3 flex items-center justify-between">
+            <span class="text-xs text-gray-400">F168</span>
+            <div class="flex gap-1">
+              <span class="w-1.5 h-1.5 rounded-full bg-[#FF5E35]"></span>
+              <span class="w-1.5 h-1.5 rounded-full bg-gray-300"></span>
+              <span class="w-1.5 h-1.5 rounded-full bg-gray-300"></span>
+              <span class="w-1.5 h-1.5 rounded-full bg-gray-300"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-white rounded-2xl shadow overflow-hidden ">
+        <div class="relative w-full h-40 sm:h-44 rounded-2xl overflow-hidden">
+  <!-- Ảnh -->
+  <img src="img/Rectangle 19114.png" 
+       class="w-full h-full object-cover" alt="">
+
+  <!-- Badge HOT -->
+  <span class="absolute top-1 left-3 flex items-center gap-1 text-white text-xs font-semibold 
+               px-2.5 py-1 rounded-full shadow-md"
+        style="background:linear-gradient(92.67deg,#FF1F4C 0%,#FF5E35 102.17%)">
+    <img src="img/Hot Girl.svg" alt="Hot" class="w-3.5 h-3.5 object-contain">
+    Hot
+  </span>
+</div>
+        <div class="p-4">
+          <p class="text-sm text-gray-800">Đăng ký tài khoản - Tặng 25 USDT Miễn phí</p>
+          <div class="mt-3 flex items-center justify-between">
+            <span class="text-xs text-gray-400">F168</span>
+            <div class="flex gap-1">
+              <span class="w-1.5 h-1.5 rounded-full bg-gray-300"></span>
+              <span class="w-1.5 h-1.5 rounded-full bg-[#FF5E35]"></span>
+              <span class="w-1.5 h-1.5 rounded-full bg-gray-300"></span>
+              <span class="w-1.5 h-1.5 rounded-full bg-gray-300"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CTA cuối -->
+<div class="mt-16 text-center text-gray-600 text-[32px] hidden sm:block">
+  <p class="text-[#888888]">Start trading now with Phemex.</p>
+  <p class="font-bold text-black">
+    Available for <a href="#" class="text-[#FF4A3D]">Download</a>
+  </p>
+</div>
+
+
+  
+</section>
+
+
+<!-- DOWNLOAD SECTION -->
+<!-- DOWNLOAD + bridge strip -->
+<section id="download" class="relative w-full overflow-visible border-t-4 border-[#FF4A3D] pb-24">
+  <!-- BG pattern -->
+  <div class="absolute inset-0 -z-10 bg-[#0e0e0f]">
+    <div class="absolute inset-0 bg-center bg-cover opacity-90"
+         style="background-image:url('img/BG (3).png')"></div>
+  </div>
+
+  <div class="mx-auto max-w-[1463px] px-4 sm:px-6 lg:px-10 py-12 lg:py-16">
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12 items-center">
+      <!-- LEFT -->
+      <div class="lg:col-span-6">
+        <h2 class="text-[34px] sm:text-[40px] leading-tight font-extrabold">
+          DOWNLOAD <span class="text-[#FF1F4C]">SHBET</span> &amp; <span class="text-[#FF8B33]">F168</span><br/>
+          <span class="text-white/90">Ngay tại đây</span>
+        </h2>
+
+        <!-- Stats -->
+        <div class="mt-8 grid grid-cols-3 gap-6 sm:gap-10 text-white font-['Inter']">
+  <div>
+    <div class="text-4xl sm:text-5xl font-extrabold bg-gradient-to-r from-[#FF1F4C] to-[#FF5E35] bg-clip-text text-transparent">
+      2.3M+
+    </div>
+    <p class="mt-1 text-sm sm:text-base text-white/70">Downloaded</p>
+  </div>
+  <div>
+    <div class="text-4xl sm:text-5xl font-extrabold bg-gradient-to-r from-[#FF1F4C] to-[#FF5E35] bg-clip-text text-transparent">
+      99+
+    </div>
+    <p class="mt-1 text-sm sm:text-base text-white/70">Happy Customer</p>
+  </div>
+  <div>
+    <div class="text-4xl sm:text-5xl font-extrabold bg-gradient-to-r from-[#FF1F4C] to-[#FF5E35] bg-clip-text text-transparent">
+      4.9+
+    </div>
+    <p class="mt-1 text-sm sm:text-base text-white/70">Rating</p>
+  </div>
+</div>
+        <!-- CTA group -->
+        <div class="mt-8 rounded-[22px] p-3 sm:p-4 bg-gradient-to-r from-[#FF1F4C] to-[#FF5E35] inline-block">
+          <div class="flex flex-col sm:flex-row gap-3 sm:gap-4">
+            <a href="#" class="flex items-center gap-3"><img src="img/Appstore (6).png" alt="Tải SHBET trên Appstore"></a>
+            <a href="#" class="flex items-center gap-3"><img src="img/Appstore (7).png" alt="Tải SHBET Google Play"></a>
+            <a href="#" class="flex items-center gap-3"><img src="img/Appstore (8).png" alt="Tải F168"></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- RIGHT illustration -->
+      <div class="lg:col-span-6">
+        <div class="relative">
+          <img src="img/item.png" alt="Download Visual"
+               class="w-full max-w-[650px] ml-auto object-contain drop-shadow-[0_20px_60px_rgba(255,74,61,0.25)]">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- BRIDGE STRIP: đè lên giữa Download & Footer -->
+<div class="absolute left-1/2 bottom-0 z-30 w-full max-w-[1240px] -translate-x-1/2 translate-y-1/2 px-0 sm:px-4">
+  <div class="relative overflow-hidden shadow-2xl ring-1 ring-black/5 
+              rounded-none sm:rounded-[28px]">
+    <!-- BG gradient + chevron -->
+    <svg viewBox="0 0 1240 163" preserveAspectRatio="none"
+         class="absolute inset-0 h-full w-full" aria-hidden="true">
+      <defs>
+        <linearGradient id="statsGrad" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0" stop-color="#FF1F4C"/>
+          <stop offset="0.5" stop-color="#FF5E35"/>
+          <stop offset="1" stop-color="#FF8B33"/>
+        </linearGradient>
+      </defs>
+      <rect width="1240" height="163" fill="url(#statsGrad)"/>
+      <g fill="#fff" opacity=".18">
+        <polygon points="-80,0 40,0 120,163 0,163"/>
+        <polygon points="80,0 200,0 280,163 160,163"/>
+        <polygon points="240,0 360,0 440,163 320,163"/>
+        <polygon points="400,0 520,0 600,163 480,163"/>
+        <polygon points="560,0 680,0 760,163 640,163"/>
+        <polygon points="720,0 840,0 920,163 800,163"/>
+        <polygon points="880,0 1000,0 1080,163 960,163"/>
+        <polygon points="1040,0 1160,0 1240,163 1120,163"/>
+      </g>
+    </svg>
+
+    <!-- Content -->
+    <div class="relative grid grid-cols-2 md:grid-cols-4 gap-y-6 px-4 sm:px-6 py-6 sm:py-8 text-center text-white">
+      <div>
+        <div class="text-3xl sm:text-5xl font-extrabold tracking-tight">&gt;10M</div>
+        <div class="mt-1 text-[11px] sm:text-xs font-semibold uppercase">Khách hàng trung thành</div>
+      </div>
+      <div>
+        <div class="text-3xl sm:text-5xl font-extrabold tracking-tight">~100</div>
+        <div class="mt-1 text-[11px] sm:text-xs font-semibold uppercase">Dự án cộng đồng</div>
+      </div>
+      <div>
+        <div class="text-3xl sm:text-5xl font-extrabold tracking-tight">~100</div>
+        <div class="mt-1 text-[11px] sm:text-xs font-semibold uppercase">Dự án từ thiện cộng đồng</div>
+      </div>
+      <div>
+        <div class="text-3xl sm:text-5xl font-extrabold tracking-tight">20+</div>
+        <div class="mt-1 text-[11px] sm:text-xs font-semibold uppercase">Đối tác quốc tế</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</section>
+
+<!-- FOOTER -->
+<footer class="relative bg-white text-gray-700 pt-24">
+  <div class="mx-auto max-w-[1463px] px-4 sm:px-6 lg:px-10 py-12">
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-16 items-start ">
+      <!-- Brand + socials (giữ trên mobile) -->
+      <div class="lg:col-span-5 ">
+        <div class="flex items-center gap-3 justify-center md:justify-start">
+    <img src="img/Logo.png" alt="BrandTop1" class="w-10 h-10">
+    <span class="text-xl sm:text-2xl font-extrabold text-black">
+      BRAND<span class="text-[#FF4A3D]">TOP1</span>
+    </span>
+  </div>
+
+        <!-- Ẩn mô tả trên mobile, chỉ hiện từ md trở lên -->
+        <p class="mt-4 max-w-sm text-[15px] leading-6 text-gray-500 hidden md:block">
+          A joint venture is an application to<br>collect fees from an agreed plan.
+        </p>
+
+        <!-- Dãy icon MXH: luôn hiển thị -->
+        <div class="mt-6 flex items-center gap-4">
+          <!-- LinkedIn -->
+          <a href="#" aria-label="LinkedIn"
+             class="h-10 w-10 rounded-full border-2 border-[#FF4A3D] text-[#FF4A3D] flex items-center justify-center hover:bg-[#FF4A3D] hover:text-white transition">
+            <svg viewBox="0 0 24 24" class="h-5 w-5" fill="currentColor"><path d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1 4.98 2.12 4.98 3.5zM.5 8h4V24h-4V8zM8 8h3.8v2.2h.05c.53-1 1.82-2.2 3.76-2.2 4.02 0 4.77 2.65 4.77 6.09V24h-4v-7.2c0-1.72-.03-3.93-2.4-3.93-2.4 0-2.77 1.87-2.77 3.81V24H8V8z"/></svg>
+          </a>
+          <!-- Facebook -->
+          <a href="#" aria-label="Facebook"
+             class="h-10 w-10 rounded-full border-2 border-[#FF4A3D] text-[#FF4A3D] flex items-center justify-center hover:bg-[#FF4A3D] hover:text-white transition">
+            <svg viewBox="0 0 24 24" class="h-5 w-5" fill="currentColor"><path d="M22 12.07C22 6.48 17.52 2 11.93 2S2 6.48 2 12.07C2 17.06 5.66 21.14 10.44 22v-7.02H7.9v-2.9h2.54V9.8c0-2.5 1.49-3.88 3.77-3.88 1.09 0 2.23.2 2.23.2v2.45h-1.26c-1.24 0-1.62.77-1.62 1.56v1.87h2.76l-.44 2.9h-2.32V22C18.34 21.14 22 17.06 22 12.07z"/></svg>
+          </a>
+          <!-- Twitter/X -->
+          <a href="#" aria-label="Twitter"
+             class="h-10 w-10 rounded-full border-2 border-[#FF4A3D] text-[#FF4A3D] flex items-center justify-center hover:bg-[#FF4A3D] hover:text-white transition">
+            <svg viewBox="0 0 24 24" class="h-5 w-5" fill="currentColor"><path d="M18.244 2H21.5l-7.5 8.57L22.5 22h-6.15l-4.8-5.79L5.9 22H2.64l8.02-9.16L1.5 2h6.26l4.33 5.14L18.24 2zm-2.15 18h2.15L8.01 4H5.86l10.23 12z"/></svg>
+          </a>
+          <!-- Telegram -->
+          <a href="#" aria-label="Telegram"
+             class="h-10 w-10 rounded-full border-2 border-[#FF4A3D] text-[#FF4A3D] flex items-center justify-center hover:bg-[#FF4A3D] hover:text-white transition">
+            <svg viewBox="0 0 24 24" class="h-5 w-5" fill="currentColor"><path d="M9.03 15.72 8.9 20.1c.4 0 .58-.17.79-.37l1.9-1.82 3.94 2.89c.72.4 1.22.19 1.41-.67l2.56-12.01c.26-1.21-.44-1.68-1.23-1.38L3.47 9.65c-1.18.46-1.16 1.12-.2 1.42l4.5 1.4 10.47-6.57c.49-.3.94-.14.57.19L9.03 15.72z"/></svg>
+          </a>
+          <!-- Discord -->
+          <a href="#" aria-label="Discord"
+             class="h-10 w-10 rounded-full border-2 border-[#FF4A3D] text-[#FF4A3D] flex items-center justify-center hover:bg-[#FF4A3D] hover:text-white transition">
+            <svg viewBox="0 0 24 24" class="h-5 w-5" fill="currentColor"><path d="M20.32 4.37A17.3 17.3 0 0 0 15.9 3l-.24.46A15.3 15.3 0 0 1 8.34 3L8.1 2.99A17.3 17.3 0 0 0 3.68 4.37C1.7 7.31 1.1 10.17 1.3 12.99a17.6 17.6 0 0 0 5.67 2.9l.4-.64c-.92-.34-1.74-.78-2.47-1.3.21.16.43.3.66.45a12.7 12.7 0 0 0 11.3 0c.23-.14.45-.29.66-.45-.74.52-1.56.96-2.47 1.3l.4.64a17.6 17.6 0 0 0 5.67-2.9c.26-3.45-.34-6.3-2.3-8.62zM9.6 12.86c-.78 0-1.41-.72-1.41-1.61 0-.88.63-1.6 1.4-1.6.79 0 1.42.72 1.42 1.6 0 .89-.63 1.61-1.41 1.61zm4.8 0c-.78 0-1.41-.72-1.41-1.61 0-.88.63-1.6 1.4-1.6.79 0 1.42.72 1.42 1.6 0 .89-.63 1.61-1.41 1.61z"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- Link columns: ẩn trên mobile, hiện từ md+ -->
+      <div class="lg:col-span-7  hidden md:grid grid-cols-1 sm:grid-cols-3 gap-10">
+        <nav>
+          <h4 class="text-lg font-semibold text-gray-900">About</h4>
+          <ul class="mt-4 space-y-3 text-gray-500">
+            <li><a href="#" class="hover:text-gray-700">About Us</a></li>
+            <li><a href="#" class="hover:text-gray-700">Features</a></li>
+            <li><a href="#" class="hover:text-gray-700">Blog</a></li>
+            <li><a href="#" class="hover:text-gray-700">Download</a></li>
+          </ul>
+        </nav>
+        <nav>
+          <h4 class="text-lg font-semibold text-gray-900">Company</h4>
+          <ul class="mt-4 space-y-3 text-gray-500">
+            <li><a href="#" class="hover:text-gray-700">How we work</a></li>
+            <li><a href="#" class="hover:text-gray-700">Press Room</a></li>
+            <li><a href="#" class="hover:text-gray-700">Jobs</a></li>
+            <li><a href="#" class="hover:text-gray-700">Community</a></li>
+          </ul>
+        </nav>
+        <nav>
+          <h4 class="text-lg font-semibold text-gray-900">Legal</h4>
+          <ul class="mt-4 space-y-3 text-gray-500">
+            <li><a href="#" class="hover:text-gray-700">Terms of use</a></li>
+            <li><a href="#" class="hover:text-gray-700">Privacy Policy</a></li>
+            <li><a href="#" class="hover:text-gray-700">Security Policy</a></li>
+            <li><a href="#" class="hover:text-gray-700">Cookies settings</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bottom gradient line -->
+  <div class="h-[4px] w-full bg-gradient-to-r from-[#FF4A3D] via-[#FF5E35] to-[#FF8B33]"></div>
+</footer>
+
+
+
+  <!-- Optional footer spacing -->
+
+<!-- POPUP: Khuyến mãi -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="promoModal" 
+     class="fixed inset-0 z-[999] hidden flex items-center justify-center" 
+     role="dialog" aria-modal="true" aria-labelledby="promoTitle">
+
+  <!-- Overlay -->
+  <div class="absolute inset-0 bg-black/60 backdrop-blur-sm" data-close-modal></div>
+
+  <!-- Modal content -->
+  <div class="relative z-10 w-[434px] h-[500px] rounded-[20px] bg-white shadow-2xl p-5 flex flex-col gap-8"
+>
+
+    <!-- Close -->
+    <button type="button"
+            class="absolute -right-3 -top-3 h-8 w-8 rounded-full bg-white shadow flex items-center justify-center text-gray-500 hover:text-gray-700"
+            aria-label="Đóng" data-close-modal>✕</button>
+
+    <div class="flex-1 overflow-y-auto">
+      <h4 id="promoTitle" class="sr-only">Khuyến mãi nổi bật</h4>
+      <div class="space-y-8"> <!-- gap giữa các card 32px (8 * 4px) -->
+
+        <!-- Card 1 -->
+        <div class=" rounded-xl ">
+          <div class="bg-white rounded-[10px] p-1 flex items-center gap-3">
+            <img src="img/photo_2025-08-25_19-26-04.png" alt="F168" class="w-full h-full object-contain">
+            
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="rounded-xl ">
+          <div class="bg-white rounded-[10px] p-1 flex items-center gap-3">
+             <img src="img/Frame 1618873253.png" alt="F168" class="w-full h-full object-contain">
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class=" rounded-xl ">
+          <div class="bg-white rounded-[10px] p-1 flex items-center gap-3">
+             <img src="img/Frame 12.png" alt="F168" class="w-full h-full object-contain">
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<script>
+(() => {
+  const modal = document.getElementById('promoModal');
+  const openers = document.querySelectorAll('.js-open-promo');
+
+  function open() {
+    modal.classList.remove('hidden');
+    document.body.classList.add('overflow-hidden'); // khoá scroll nền
+  }
+  function close() {
+    modal.classList.add('hidden');
+    document.body.classList.remove('overflow-hidden');
+  }
+
+  // mở
+  openers.forEach(btn => {
+    btn.addEventListener('click', e => { e.preventDefault(); open(); });
+  });
+
+  // đóng khi bấm overlay, nút X, hoặc ESC
+  modal.addEventListener('click', e => {
+    if (e.target.matches('[data-close-modal]')) close();
+  });
+  document.addEventListener('keydown', e => {
+    if (e.key === 'Escape') close();
+  });
+})();
+</script>
+
+
+</body>
+</html>
