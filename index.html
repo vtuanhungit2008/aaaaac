@@ -54,26 +54,26 @@
         </div>
 
         <!-- App buttons -->
-        <ul class="mt-6 grid grid-cols-1 gap-3 sm:flex sm:items-center sm:gap-4">
+   <ul class="mt-6 grid grid-cols-2 gap-2 sm:gap-3 items-stretch justify-items-stretch">
   <li>
-    <a href="https://shbetapp01.pages.dev/ios" class="inline-block">
-      <img src="./img/Appstore.png" alt="Appstore" class="h-12 sm:h-14 mx-auto" />
+    <a href="https://shbetapp01.pages.dev/ios" class="block w-full max-w-[360px] mx-auto h-16 sm:h-18 md:h-20 px-3 sm:px-4 md:px-5 flex items-center justify-center">
+      <img src="./img/Appstore.png" alt="Appstore" class="h-full w-auto max-w-full object-contain" />
     </a>
   </li>
   <li>
-    <a href="https://shbetapp01.pages.dev/taiappAndroid" class="inline-block">
-      <img src="./img/Appstore1.png" alt="Appstore" class="h-12 sm:h-14 mx-auto" />
+    <a href="https://shbetapp01.pages.dev/taiappAndroid" class="block w-full max-w-[360px] mx-auto h-16 sm:h-18 md:h-20 px-3 sm:px-4 md:px-5 flex items-center justify-center">
+      <img src="./img/Appstore1.png" alt="Appstore" class="h-full w-auto max-w-full object-contain" />
     </a>
   </li>
- 
+
   <li>
-    <a href="https://f168tv.net/" class="inline-block">
-      <img src="./img/Appstore (12).png" alt="Appstore" class="h-12 sm:h-14 mx-auto" />
+    <a href="https://f168tv.net/" class="block w-full max-w-[360px] mx-auto h-16 sm:h-18 md:h-20 px-3 sm:px-4 md:px-5 flex items-center justify-center">
+      <img src="./img/Appstore (12).png" alt="Appstore" class="h-full w-auto max-w-full object-contain" />
     </a>
   </li>
    <li>
-    <a href="https://f168n.com/" class="inline-block">
-      <img src="./img/Appstore2.png" alt="Appstore" class="h-12 sm:h-14 mx-auto" />
+    <a href="https://f168n.com/" class="block w-full max-w-[360px] mx-auto h-16 sm:h-18 md:h-20 px-3 sm:px-4 md:px-5 flex items-center justify-center">
+      <img src="./img/Appstore2.png" alt="Appstore" class="h-full w-auto max-w-full object-contain" />
     </a>
   </li>
 </ul>
@@ -435,6 +435,45 @@ Thương hiệu hàng đầu, dịch vụ khách hàng thân thiện, bảo mậ
   </div>
     </div>
 
+
+      <div class="bg-white rounded-2xl shadow pl-2 pr-2 pt-1 pb-2 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
+  <div class="flex items-center gap-3 relative">
+    <!-- Icon trái -->
+    <img src="img/Image (9).png" class="w-12 h-12 ml-1 rounded-lg" alt="">
+
+    <!-- Khối chữ + logo overlay -->
+    <div class="relative">
+      <!-- Logo overlay -->
+      <img class="absolute -top-3 left-0 w-[138px] h-[60px] object-contain" 
+           src="/img/Image (11).png" alt="">
+
+      <!-- Text -->
+      <div class="pt-10"> <!-- đẩy text xuống để không đè logo -->
+        <p class="text-xs sm:text-xs text-black">APP LIVE TRỰC TIẾP CỦA F168</p>
+        <p class="text-xs sm:text-xs text-black">BLV trực tiếp game cùng nhiều CODE hấp dẫn mỗi 15 phút xem LIVE</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Divider for mobile -->
+  <div class="block sm:hidden border-t border-gray-200 my-2"></div>
+
+  <!-- Buttons -->
+  <div class="flex justify-between sm:justify-center gap-3 w-full sm:w-auto">
+    <a href="#"
+       class="js-open-promo_4 px-4 py-2 rounded-lg text-sm font-semibold 
+              text-black hover:text-gray-700 flex items-center">
+       Xem khuyến mãi
+    </a>
+    <a href="#"
+       class="px-4 py-2 rounded-lg text-white text-sm font-semibold 
+              bg-gradient-to-r from-[#FF1F4C] to-[#FF5E35] js-open-promo_4">
+       REVIEW
+    </a>
+  </div>
+</div>
+
+    
   </div>
 </div>
 
@@ -1127,6 +1166,60 @@ Thương hiệu hàng đầu, dịch vụ khách hàng thân thiện, bảo mậ
   </div>
 </div>
 
+<div id="promoModal_5" 
+     class="fixed inset-0 z-[999] hidden flex items-center justify-center" 
+     role="dialog" aria-modal="true" aria-labelledby="promoTitle">
+
+  <!-- Overlay -->
+  <div class="absolute inset-0 bg-black/60 backdrop-blur-sm" data-close-modal></div>
+
+  <!-- Modal content -->
+  <div class="relative ml-1 mt-1 z-10 w-[80%] sm:w-[434px] 
+              h-[420px] sm:h-[500px] 
+              rounded-[20px] bg-white shadow-2xl p-5 flex flex-col">
+
+    <!-- Close -->
+    <button type="button"
+            class="absolute -right-3 -top-3 h-8 w-8 rounded-full bg-white shadow 
+                   flex items-center justify-center text-gray-500 hover:text-gray-700"
+            aria-label="Đóng" data-close-modal>✕</button>
+
+    <!-- Nội dung -->
+    <div class="flex-1 overflow-y-auto">
+      <h4 id="promoTitle" class="sr-only">Khuyến mãi nổi bật</h4>
+      <div class="space-y-3">
+
+        <!-- Card 1 -->
+     
+         <a href="https://f168tv.net/">
+            <img src="img/Frame 1618873255 (1).png" 
+                 alt="F168" 
+                  class="w-full h-[100px] sm:h-[120px] mt-[15px] object-fit rounded-lg">>
+         </a>
+        
+
+        <!-- Card 2 -->
+       
+          <a href="https://f168tv.net/">
+            <img src="img/Frame 1618873256.png" 
+                 alt="SHBET" 
+                  class="w-full h-[100px] sm:h-[120px] object-fit rounded-lg">>
+         </a>
+      
+
+        <!-- Card 3 -->
+      <a href="https://f168tv.net/">
+            <img src="img/photo_2025-08-25_19-26-04 (5).png" 
+                 alt="F168 TV" 
+                  class="w-full h-[100px] sm:h-[120px] object-fit rounded-lg">>
+          </a>
+     
+
+      </div>
+    </div>
+  </div>
+</div>
+
 <script>
 function setupModal(modalId, openerClass) {
   const modal = document.getElementById(modalId);
@@ -1164,6 +1257,7 @@ setupModal("promoModal_1", ".js-open-promo_1");
 setupModal("promoModal_2", ".js-open-promo_2");
 setupModal("promoModal_3", ".js-open-promo_3");
 setupModal("promoModal_4", ".js-open-promo_4");
+setupModal("promoModal_5", ".js-open-promo_5");
 </script>
 
 </body>
